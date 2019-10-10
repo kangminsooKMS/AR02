@@ -3,10 +3,8 @@
  LED 점멸
 */
 
-const int ledA   =  1;
-const int ledB   =  2;
-const int ledC   =  4;
-const int ledD   =  8;
+const int ledA   =  3;
+const int ledB   =  5;
 
 int number = 1;
 boolean flag = true;
@@ -16,8 +14,6 @@ void setup()
   Serial.begin(9600);
   pinMode(ledA, OUTPUT);
   pinMode(ledB, OUTPUT);
-  pinMode(ledC, OUTPUT);
-  pinMode(ledD, OUTPUT);
 }
 
 void loop()
