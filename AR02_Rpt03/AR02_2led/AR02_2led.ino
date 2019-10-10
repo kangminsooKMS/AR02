@@ -20,23 +20,10 @@ void loop()
 {
   digitalWrite(ledA,HIGH);
   digitalWrite(ledB,LOW);
-  digitalWrite(ledC,LOW);
-  digitalWrite(ledD,LOW);
   delay(100 * number);
   digitalWrite(ledA,LOW);
   digitalWrite(ledB,HIGH);
-  digitalWrite(ledC,LOW);
-  digitalWrite(ledD,LOW);
   delay(100 * number);
-  digitalWrite(ledA,LOW);
-  digitalWrite(ledB,LOW);
-  digitalWrite(ledC,HIGH);
-  digitalWrite(ledD,LOW);
-  delay(100 * number);
-  digitalWrite(ledA,LOW);
-  digitalWrite(ledB,LOW);
-  digitalWrite(ledC,LOW);
-  digitalWrite(ledD,HIGH);
   Serial.print("delay = ");
   Serial.print(100 * number);
   Serial.println(" msec");
